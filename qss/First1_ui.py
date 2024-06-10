@@ -1,0 +1,258 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'First1.ui'
+##
+## Created by: Qt User Interface Compiler version 6.7.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QComboBox, QFrame, QGroupBox,
+    QLabel, QListView, QMainWindow, QMenuBar,
+    QPushButton, QSizePolicy, QStatusBar, QTextEdit,
+    QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(1500, 1202)
+        icon = QIcon()
+        icon.addFile(u"web.png", QSize(), QIcon.Normal, QIcon.Off)
+        MainWindow.setWindowIcon(icon)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(510, 310, 491, 111))
+        font = QFont()
+        font.setPointSize(50)
+        font.setBold(True)
+        self.label.setFont(font)
+        self.label.setAlignment(Qt.AlignCenter)
+        self.textEdit = QTextEdit(self.centralwidget)
+        self.textEdit.setObjectName(u"textEdit")
+        self.textEdit.setGeometry(QRect(510, 440, 481, 51))
+        font1 = QFont()
+        font1.setPointSize(15)
+        self.textEdit.setFont(font1)
+        self.textEdit.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"")
+        self.textEdit.setFrameShape(QFrame.WinPanel)
+        self.textEdit.setFrameShadow(QFrame.Plain)
+        self.textEdit.setLineWidth(2)
+        self.textEdit.setLineWrapMode(QTextEdit.WidgetWidth)
+        self.comboBox = QComboBox(self.centralwidget)
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setGeometry(QRect(1080, 699, 231, 41))
+        self.comboBox.setFocusPolicy(Qt.ClickFocus)
+        self.comboBox.setStyleSheet(u"")
+        self.client = QListView(self.centralwidget)
+        self.client.setObjectName(u"client")
+        self.client.setGeometry(QRect(1080, 620, 311, 121))
+        self.client.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.client.setFrameShape(QFrame.WinPanel)
+        self.client.setFrameShadow(QFrame.Plain)
+        self.label_6 = QLabel(self.centralwidget)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(1090, 629, 291, 61))
+        font2 = QFont()
+        font2.setPointSize(10)
+        font2.setBold(True)
+        self.label_6.setFont(font2)
+        self.label_6.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.label_6.setAlignment(Qt.AlignCenter)
+        self.pushButton_2 = QPushButton(self.centralwidget)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(1310, 699, 81, 41))
+        self.pushButton_2.setStyleSheet(u"color: rgb(0, 0, 0);\n"
+"background-color: rgb(183, 212, 255);")
+        self.label_7 = QLabel(self.centralwidget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(1090, 760, 291, 61))
+        self.label_7.setFont(font2)
+        self.label_7.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.label_7.setAlignment(Qt.AlignCenter)
+        self.comboBox_2 = QComboBox(self.centralwidget)
+        self.comboBox_2.addItem("")
+        self.comboBox_2.addItem("")
+        self.comboBox_2.addItem("")
+        self.comboBox_2.setObjectName(u"comboBox_2")
+        self.comboBox_2.setGeometry(QRect(1080, 830, 231, 41))
+        self.comboBox_2.setFocusPolicy(Qt.ClickFocus)
+        self.comboBox_2.setStyleSheet(u"")
+        self.pushButton_3 = QPushButton(self.centralwidget)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setGeometry(QRect(1310, 830, 81, 41))
+        self.pushButton_3.setStyleSheet(u"color: rgb(0, 0, 0);\n"
+"background-color: rgb(183, 212, 255);")
+        self.client_2 = QListView(self.centralwidget)
+        self.client_2.setObjectName(u"client_2")
+        self.client_2.setGeometry(QRect(1080, 751, 311, 121))
+        self.client_2.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.client_2.setFrameShape(QFrame.WinPanel)
+        self.client_2.setFrameShadow(QFrame.Plain)
+        self.label_8 = QLabel(self.centralwidget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(1090, 890, 291, 61))
+        self.label_8.setFont(font2)
+        self.label_8.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.label_8.setAlignment(Qt.AlignCenter)
+        self.pushButton_4 = QPushButton(self.centralwidget)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setGeometry(QRect(1310, 960, 81, 41))
+        self.pushButton_4.setStyleSheet(u"color: rgb(0, 0, 0);\n"
+"background-color: rgb(183, 212, 255);")
+        self.client_3 = QListView(self.centralwidget)
+        self.client_3.setObjectName(u"client_3")
+        self.client_3.setGeometry(QRect(1080, 881, 311, 121))
+        self.client_3.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.client_3.setFrameShape(QFrame.WinPanel)
+        self.client_3.setFrameShadow(QFrame.Plain)
+        self.comboBox_3 = QComboBox(self.centralwidget)
+        self.comboBox_3.addItem("")
+        self.comboBox_3.setObjectName(u"comboBox_3")
+        self.comboBox_3.setGeometry(QRect(1080, 960, 231, 41))
+        self.comboBox_3.setFocusPolicy(Qt.ClickFocus)
+        self.comboBox_3.setStyleSheet(u"")
+        self.label_9 = QLabel(self.centralwidget)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(1090, 1020, 291, 61))
+        self.label_9.setFont(font2)
+        self.label_9.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.label_9.setAlignment(Qt.AlignCenter)
+        self.comboBox_4 = QComboBox(self.centralwidget)
+        self.comboBox_4.addItem("")
+        self.comboBox_4.addItem("")
+        self.comboBox_4.setObjectName(u"comboBox_4")
+        self.comboBox_4.setGeometry(QRect(1080, 1090, 231, 41))
+        self.comboBox_4.setFocusPolicy(Qt.ClickFocus)
+        self.comboBox_4.setStyleSheet(u"")
+        self.client_4 = QListView(self.centralwidget)
+        self.client_4.setObjectName(u"client_4")
+        self.client_4.setGeometry(QRect(1080, 1011, 311, 121))
+        self.client_4.setStyleSheet(u"color: rgb(83, 180, 255);\n"
+"background-color: rgb(183, 212, 255);")
+        self.client_4.setFrameShape(QFrame.WinPanel)
+        self.client_4.setFrameShadow(QFrame.Plain)
+        self.pushButton_5 = QPushButton(self.centralwidget)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(1310, 1090, 81, 41))
+        self.pushButton_5.setStyleSheet(u"color: rgb(0, 0, 0);\n"
+"background-color: rgb(183, 212, 255);")
+        self.groupBox = QGroupBox(self.centralwidget)
+        self.groupBox.setObjectName(u"groupBox")
+        self.groupBox.setGeometry(QRect(70, 610, 341, 481))
+        font3 = QFont()
+        font3.setPointSize(20)
+        self.groupBox.setFont(font3)
+        self.pushButton_6 = QPushButton(self.centralwidget)
+        self.pushButton_6.setObjectName(u"pushButton_6")
+        self.pushButton_6.setGeometry(QRect(990, 440, 51, 51))
+        self.pushButton_6.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        icon1 = QIcon()
+        icon1.addFile(u"\ub3cb\ubcf4\uae30.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_6.setIcon(icon1)
+        self.pushButton_6.setIconSize(QSize(50, 50))
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.textEdit.raise_()
+        self.client_4.raise_()
+        self.client_3.raise_()
+        self.client_2.raise_()
+        self.client.raise_()
+        self.pushButton_4.raise_()
+        self.comboBox_3.raise_()
+        self.label_8.raise_()
+        self.comboBox_2.raise_()
+        self.pushButton_3.raise_()
+        self.label_7.raise_()
+        self.label.raise_()
+        self.comboBox.raise_()
+        self.label_6.raise_()
+        self.pushButton_2.raise_()
+        self.comboBox_4.raise_()
+        self.pushButton_5.raise_()
+        self.label_9.raise_()
+        self.groupBox.raise_()
+        self.pushButton_6.raise_()
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 1500, 22))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"URL-Scan", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"URL-Scan", None))
+        self.textEdit.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Gulim'; font-size:15pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", None))
+        self.textEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"URL \uc785\ub825\ud574\uc8fc\uc138\uc694.", None))
+        self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"\ud074\ub77c\uc774\uc5b8\ud2b8 \ubc84\uc804", None))
+        self.comboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"\uac1c\ubc1c \ub3c4\uad6c", None))
+        self.comboBox.setItemText(2, QCoreApplication.translate("MainWindow", u"\uacf5\uc2dd \ubb38\uc11c", None))
+
+#if QT_CONFIG(whatsthis)
+        self.comboBox.setWhatsThis(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><br/></p></body></html>", None))
+#endif // QT_CONFIG(whatsthis)
+        self.comboBox.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\ud074\ub77c\uc774\uc5b8\ud2b8 \uc124\uba85\uc11c", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"\ud074\ub77c\uc774\uc5b8\ud2b8 \uc124\uba85\uc11c", None))
+        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\ud074\ub9ad", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"AI \uae30\uc220 \ubc0f \ubaa8\ub378", None))
+        self.comboBox_2.setItemText(0, QCoreApplication.translate("MainWindow", u"\ubd84\ub958 \ubaa8\ub378 \ud6c4\ubcf4", None))
+        self.comboBox_2.setItemText(1, QCoreApplication.translate("MainWindow", u"\uc120\uc815\ub41c \ubaa8\ub378", None))
+        self.comboBox_2.setItemText(2, QCoreApplication.translate("MainWindow", u"\uc0ac\uc6a9\ub41c \ube45\ub370\uc774\ud130", None))
+
+#if QT_CONFIG(whatsthis)
+        self.comboBox_2.setWhatsThis(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><br/></p></body></html>", None))
+#endif // QT_CONFIG(whatsthis)
+        self.comboBox_2.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\ud074\ub77c\uc774\uc5b8\ud2b8 \uc124\uba85\uc11c", None))
+        self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"\ud074\ub9ad", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"\uc545\uc131 URL \ubaa8\uc74c\uc9d1", None))
+        self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"\ud074\ub9ad", None))
+        self.comboBox_3.setItemText(0, QCoreApplication.translate("MainWindow", u"\ud53c\uc2f1 URL", None))
+
+#if QT_CONFIG(whatsthis)
+        self.comboBox_3.setWhatsThis(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><br/></p></body></html>", None))
+#endif // QT_CONFIG(whatsthis)
+        self.comboBox_3.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\ud074\ub77c\uc774\uc5b8\ud2b8 \uc124\uba85\uc11c", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"\ucee4\ubba4\ub2c8\ud2f0", None))
+        self.comboBox_4.setItemText(0, QCoreApplication.translate("MainWindow", u"Q & A", None))
+        self.comboBox_4.setItemText(1, QCoreApplication.translate("MainWindow", u"\uc790\uc720 \uac8c\uc2dc\ud310", None))
+
+#if QT_CONFIG(whatsthis)
+        self.comboBox_4.setWhatsThis(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><br/></p></body></html>", None))
+#endif // QT_CONFIG(whatsthis)
+        self.comboBox_4.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\ud074\ub77c\uc774\uc5b8\ud2b8 \uc124\uba85\uc11c", None))
+        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\ud074\ub9ad", None))
+        self.groupBox.setTitle(QCoreApplication.translate("MainWindow", u"\ubbf8\uc815", None))
+        self.pushButton_6.setText("")
+    # retranslateUi
+
