@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="icon">
-    <file>warning.png</file>
-    <file>돋보기.jpg</file>
-  </qresource>
-</RCC>
