@@ -1,2 +1,2 @@
-# PYQT
+# PySide6
 GUI Programming
